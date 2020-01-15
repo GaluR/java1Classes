@@ -1,7 +1,5 @@
 package pojazdy;
 
-import pojazdy.Gąsiennicowe;
-
 public class Spychacz extends Gąsiennicowe {
 
     public Spychacz(int rokProdukcji, String rodzajSilnika, String kolor, double masa, int moc) {

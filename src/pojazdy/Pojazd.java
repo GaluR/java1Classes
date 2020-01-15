@@ -6,6 +6,16 @@ public class Pojazd { // pkt 12 kiedy dodamy private przed nazwą klasy dostajem
     private String kolor;
     private double masa;
 
+    public Pojazd(int rokProdukcji, String rodzajSilnika, String kolor, double masa) {
+        this.rokProdukcji = rokProdukcji;
+        this.rodzajSilnika = rodzajSilnika;
+        this.kolor = kolor;
+        this.masa = masa;
+    }
+
+    public Pojazd() {
+    }
+
     public int getRokProdukcji() {
         return rokProdukcji;
     }
@@ -36,16 +46,6 @@ public class Pojazd { // pkt 12 kiedy dodamy private przed nazwą klasy dostajem
 
     public void setMasa(double masa) {
         this.masa = masa;
-    }
-
-    public Pojazd(int rokProdukcji, String rodzajSilnika, String kolor, double masa) {
-        this.rokProdukcji = rokProdukcji;
-        this.rodzajSilnika = rodzajSilnika;
-        this.kolor = kolor;
-        this.masa = masa;
-    }
-
-    public Pojazd() {
     }
 
     public void uruchomSilnik(){

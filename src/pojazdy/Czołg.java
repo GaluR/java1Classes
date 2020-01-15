@@ -1,6 +1,7 @@
 package pojazdy;
 
 public class Czołg extends Gąsiennicowe {
+
     public Czołg(int rokProdukcji, String rodzajSilnika, String kolor, double masa, int moc) {
         super(rokProdukcji, rodzajSilnika, kolor, masa, moc);
     }
